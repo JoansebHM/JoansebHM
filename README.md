@@ -5,7 +5,7 @@
     <h1 align="center">Hi, I'm Sebastian</h1>
     <h3 align="center">I am a software engineering student at
         Pascual Bravo University. I love programming challenges and am looking for
-        problems from real life to start my professional life.
+        real life problems to start my professional life.
     </h3>
 </div>
 
