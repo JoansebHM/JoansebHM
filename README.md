@@ -12,6 +12,8 @@
 ---
 ### Sobre mi :
 
+- Medellin | Colombia 
+
 - Quinto semestre de Ingenieria de Software 🧑‍💻
 
 - Ingles B2 
