@@ -3,6 +3,15 @@
 <!--
 **cepillin123/cepillin123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+<div id="header" align="center">
+    <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200"/>
+    <h1 align="center">Hola, soy Sebastian</h1>
+    <h3 align="center">Soy un estudiante de ingenieria de software de la universidad 
+        Pascual Bravo. Me encantan los retos de programacion y estoy en busca de problemas
+        de la vida real para comenzar mi vida profesional.
+    </h3>
+</div>
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
