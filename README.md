@@ -1,7 +1,4 @@
-### Hi there 👋
 
-<!--
-**cepillin123/cepillin123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200"/>
@@ -12,14 +9,25 @@
     </h3>
 </div>
 
-Here are some ideas to get you started:
+---
+### Sobre mi :
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Quinto semestre de Ingenieria de Software 🧑‍💻
+
+- Ingles B2 
+
+- Capacitandome en : Python, machine learning, AI
+
+<div align="left">
+    <h3>Lenguajes y Herramientas:</h3>
+    <div>
+        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python"
+        width="40" height="40" style="margin-right: 20px; display: inline-block;"/>&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#"
+        width="40" height="40" style="display: inline-block;"/>&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="C#" alt="C#"
+        width="40" height="40" style="display: inline-block;"/>&nbsp;
+    </div>
+</div>
+
+
