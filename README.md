@@ -40,7 +40,7 @@
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
 
 
 
