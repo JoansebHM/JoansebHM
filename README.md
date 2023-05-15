@@ -9,16 +9,23 @@
     </h3>
 </div>
 
+
 ---
-### About me :
+
+### My status 📊
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
+### About me 👨‍💻:
+
+---
 
 - Medellin | Colombia 
 
-- Fifth semester of Software Engineering 🧑‍💻
+- Fifth semester of Software Engineering 💻
+
 
 - English level : B2 
 
-- Training me in : Python, machine learning, AI
+- Training me in : Python, machine learning, AI 🤖
 
 <div align="left">
     <h3>Lenguages and Tools :</h3>
@@ -38,9 +45,7 @@
 
 - email : sebashm621@gmail.com 
 
----
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
 
 
 
