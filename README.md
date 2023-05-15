@@ -40,7 +40,7 @@
 
 ---
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=SebasHerrera2004&theme=dark&hide_border=true&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
