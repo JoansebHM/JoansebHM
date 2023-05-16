@@ -46,7 +46,7 @@
 
 ### Contact :
 
-- email : sebashm621@gmail.com 
+- Email : sebashm621@gmail.com 
 
 
 
