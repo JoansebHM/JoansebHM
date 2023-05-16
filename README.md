@@ -5,6 +5,9 @@
         Pascual Bravo University. I love programming challenges and am looking for
         real life problems to start my professional life.
     </h3>
+    <p align="center">
+        <a href="https://instagram.com/joansebhm"><img src="https://img.shields.io/badge/instagram-833AB4.svg?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+    </p>
 </div>
 
 ---
