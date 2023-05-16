@@ -1,5 +1,3 @@
-
-
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200"/>
     <h1 align="center">Hi, I'm Sebastian</h1>
@@ -12,6 +10,9 @@
 ---
 
 ### My status 📊
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=donut&hide_border=true&theme=tokyonight)
 
@@ -19,12 +20,11 @@
 
 ### About me 👨‍💻:
 
-- Medellin | Colombia 
+- Medellin | Colombia
 
 - Fifth semester of Software Engineering 💻
 
-
-- English level : B2 
+- English level : B2
 
 - Training me in : Python, machine learning, AI 🤖
 
@@ -44,11 +44,8 @@
 
 ---
 
-### Contact :
+### Contact:
 
-- email : sebashm621@gmail.com 
+- email : sebashm621@gmail.com
 
-
-
-
-
+---
