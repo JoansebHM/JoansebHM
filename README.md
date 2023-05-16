@@ -17,12 +17,16 @@
 ![My stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=donut&hide_border=true&theme=tokyonight)
 
+---
+
 ### About me 👨‍💻
 
 - Medellin | Colombia
 - Fifth semester of Software Engineering 💻
 - English level : B2
 - Training me in : Python, machine learning, AI 🤖
+
+---
 
 <div align="left">
     <h3>Lenguages and Tools :</h3>
@@ -35,6 +39,8 @@
         width="40" height="40" style="display: inline-block;"/>&nbsp;
     </div>
 </div>
+
+---
 
 ### Contact
 
