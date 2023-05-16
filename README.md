@@ -13,6 +13,7 @@
 
 ### My status 📊
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=donut&hide_border=true&theme=tokyonight)
 
 ---
 
