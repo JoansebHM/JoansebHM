@@ -9,15 +9,25 @@
 
 ---
 
-### About me :
+### My status 📊
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
+
+---
+
+### About me 👨‍💻:
 
 - Medellin | Colombia
 
-- Fifth semester of Software Engineering 🧑‍💻
+- Fifth semester of Software Engineering 💻
 
 - English level : B2
 
-- Training me in : Python, machine learning, AI
+- Training me in : Python, machine learning, AI 🤖
+
+---
 
 <div align="left">
     <h3>Lenguages and Tools :</h3>
@@ -33,11 +43,8 @@
 
 ---
 
-### Contact :
+### Contact:
 
 - email : sebashm621@gmail.com
 
 ---
-
-![JoansebHM GitHub stats](https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=tokyonight)
-![JoansebHM Top Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=compact&theme=tokyonight&hide_border=true)
