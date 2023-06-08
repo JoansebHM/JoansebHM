@@ -31,11 +31,15 @@
 <div align="left">
     <h3>Lenguages and Tools :</h3>
     <div>
-        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python"
+        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python Icon" alt="Python"
         width="40" height="40" style="margin-right: 20px; display: inline-block;"/>&nbsp;
-        <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#"
+        <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C# Icon" alt="C#"
         width="40" height="40" style="display: inline-block;"/>&nbsp;
-        <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="C#" alt="C#"
+        <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="Django Icon" alt="Django"
+        width="40" height="40" style="display: inline-block;"/>&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain-wordmark.svg" title="PostgreSQL Icon" alt="PostgreSQL"
+        width="40" height="40" style="display: inline-block;"/>&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original-wordmark.svg" title="Flask Icon" alt="Flask"
         width="40" height="40" style="display: inline-block;"/>&nbsp;
     </div>
 </div>
