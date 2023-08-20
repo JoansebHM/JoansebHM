@@ -22,7 +22,7 @@
 ### About me 👨‍💻
 
 - Medellin | Colombia
-- Fifth semester of Software Engineering 💻
+- Sixth semester of Software Engineering 💻
 - English level : B2
 - Training me in : Python, machine learning, AI 🤖
 
