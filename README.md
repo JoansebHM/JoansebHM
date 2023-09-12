@@ -41,6 +41,8 @@
         width="40" height="40" style="display: inline-block;"/>&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original-wordmark.svg" title="Flask Icon" alt="Flask"
         width="40" height="40" style="display: inline-block;"/>&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="Js Icon" alt="Js"
+        width="40" height="40" style="display: inline-block;"/>&nbsp;
     </div>
 </div>
 
