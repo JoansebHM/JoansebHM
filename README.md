@@ -1,10 +1,10 @@
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200"/>
     <h1 align="center">Hi, I'm Sebastian</h1>
-    <h3 align="center">I am a software engineering student at
+    <h2 align="center">I am a Software Engineering en student at
         Pascual Bravo University. I love programming challenges and am looking for
         real life problems to start my professional life.
-    </h3>
+    </h2>
     <p align="center">
         <a href="https://instagram.com/joansebhm"><img src="https://img.shields.io/badge/instagram-833AB4.svg?style=for-the-badge&logo=instagram&logoColor=white"/></a>
     </p>
