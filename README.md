@@ -8,6 +8,8 @@
     <p align="center">
         <a href="https://instagram.com/joansebhm"><img src="https://img.shields.io/badge/instagram-833AB4.svg?style=for-the-badge&logo=instagram&logoColor=white"/></a>
         <a href="https://github.com/JoansebHM?tab=followers"><img src="https://img.shields.io/github/followers/JoansebHM", width=140/></a>
+        <a href="https://github.com/JoansebHM" target="_blank"><img src=https://img.shields.io/badge/github-%2300acee.svg?color=181717&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;"/></a>
+        <a href="mailto:sebashm621@gmail.com" target="_blank"><img src=https://img.shields.io/badge/gmail-%2300acee.svg?color=EA4335&style=for-the-badge&logo=gmail&logoColor=white alt=gmail style="margin-bottom: 5px;"/></a>
     </p>
 </div>
 
@@ -60,11 +62,7 @@
         width="70" height="70" style="display: inline-block;"/>&nbsp;
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" title="Visual Studio Icon" alt="visualstudio"
         width="70" height="70" style="display: inline-block;"/>&nbsp;        
+        <img src="https://raw.githubusercontent.com/badges/shields/master/logo/gitlab.svg" title="Visual Studio Icon" alt="visualstudio"
+        width="70" height="70" style="display: inline-block;"/>&nbsp;      
     </div>
 </div>
-
----
-
-### Contact
-
-- Email : <sebashm621@gmail.com>
