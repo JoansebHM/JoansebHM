@@ -1,7 +1,7 @@
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="250"/>
     <h1 align="center">Hi, I'm Sebastian</h1>
-    <h2 align="center">I am a Software Engineering en student at
+    <h2 align="center">I am a Software Engineering student at
         Pascual Bravo University. I love programming challenges and am looking for
         real life problems to start my professional life.
     </h2>
