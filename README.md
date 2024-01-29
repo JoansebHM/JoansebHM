@@ -11,6 +11,7 @@
         <a href="https://github.com/JoansebHM" target="_blank"><img src=https://img.shields.io/badge/github-%2300acee.svg?color=181717&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;"/></a>
         <a href="mailto:sebashm621@gmail.com" target="_blank"><img src=https://img.shields.io/badge/gmail-%2300acee.svg?color=EA4335&style=for-the-badge&logo=gmail&logoColor=white alt=gmail style="margin-bottom: 5px;"/></a>
         <a href="https://www.linkedin.com/in/sebastian-herrera-b03b3926b/"><img src="https://img.shields.io/badge/Sebastian%20Herrera-0077B5?style=flat&logo=Linkedin&logoColor=white" width=170/></a>
+        <a href="https://www.hackerrank.com/sebashm621" target="_blank"><img src="https://img.shields.io/badge/hackerrank-%232EC866.svg?color=181717&style=for-the-badge&logo=hackerrank&logoColor=white" alt="hackerrank" style="margin-bottom: 5px;"/></a>
     </p>
 </div>
 
