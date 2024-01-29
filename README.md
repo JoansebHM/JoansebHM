@@ -17,7 +17,7 @@
 
 <div align="center">
     <a href="https://github.com/JoansebHM">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=merko" height=215/>
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=merko"/>
     </a>
     <a href="https://github.com/JoansebHM">
       <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=donut&hide_border=true&theme=blue-green"/>
