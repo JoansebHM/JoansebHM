@@ -2,7 +2,7 @@
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="250"/>
     <h1 align="center">Hi, I'm Sebastian</h1>
     <h2 align="center">I am a Software Engineering student at
-        Pascual Bravo University. I love programming challenges and am looking for
+        Pascual Bravo University. I love programming challenges and I'm looking for
         real life problems to start my professional life.
     </h2>
     <p align="center">
