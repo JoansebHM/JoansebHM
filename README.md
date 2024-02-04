@@ -1,3 +1,4 @@
+$${\color{yellow}Welcome \space \color{blue}To \space \color{red}My \space \color{lightblue}Github}$$
 <div id="header" align="center">
     <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="250"/>
     <h1 align="center">Hi, I'm Sebastian</h1>
@@ -58,7 +59,7 @@
         width="70" height="70" style="display: inline-block;"/>&nbsp;
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg" title="Git Icon" alt="git"
         width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" title="GitHub Icon" alt="github"
+        <img src="https://i.postimg.cc/W3BLzn5d/Github-Logo.jpg" title="GitHub Icon" alt="github"
         width="70" height="70" style="display: inline-block;"/>&nbsp;
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" title="VSCode Icon" alt="vscode"
         width="70" height="70" style="display: inline-block;"/>&nbsp;
