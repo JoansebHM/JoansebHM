@@ -1,9 +1,11 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=gradient&text=Hi%20There,-nl-Im%20Sebastian&descAlign=81&textBg=false&animation=fadeIn" width=100% alt="Header Banner">
 
+<p align="center">
+  <img src="https://github.com/dhrubasaha08/dhrubasaha08/blob/main/assets/multi_color_ribbon.png">
+</p>
+
 <div id="header" align="center">
-    <h2 align="center">I am a Software Engineering student at
-        Pascual Bravo University. I love programming challenges and I'm looking for
-        real life problems to start my professional life.
+    <h2 align="center">I am a full-stack developer in training, focused on solving real-world problems with smart, efficient code. My goal is to turn challenges into practical solutions that make life easier.
     </h2>
     <p align="center">
         <a href="https://instagram.com/joansebhm"><img src="https://img.shields.io/badge/instagram-833AB4.svg?style=for-the-badge&logo=instagram&logoColor=white"/></a>
@@ -21,10 +23,13 @@
 
 <div align="center">
     <a href="https://github.com/JoansebHM">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=JoansebHM&show_icons=true&hide_border=true&theme=neon"/>
+      <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JoansebHM&theme=dark&hide_border=false"/>
     </a>
     <a href="https://github.com/JoansebHM">
-      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&layout=donut&hide_border=true&theme=merko"/>
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=JoansebHM&theme=dark&show_icons=true&hide_border=false&count_private=true"/>
+    </a>
+    <a href="https://github.com/JoansebHM">
+      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoansebHM&theme=dark&show_icons=true&hide_border=false&layout=compact"/>
     </a>
 </div>
 
@@ -33,7 +38,7 @@
 ### About me 👨‍💻
 
 - Medellin | Colombia
-- Seventh semester of Software Engineering 💻
+- Eghth semester of Software Engineering 💻
 - English level : B2
 - Training me in : Python, machine learning, AI 🤖
 
@@ -41,30 +46,15 @@
 
 <div align="left">
     <h3>Languages and Tools :</h3>
-    <div>
-        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python Icon" alt="Python"
-        width="70" height="70" style="margin-right: 20px; display: inline-block;"/>&nbsp;
-        <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C# Icon" alt="C#"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain-wordmark.svg" title="PostgreSQL Icon" alt="PostgreSQL"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="Js Icon" alt="Js"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain-wordmark.svg" title="Mysql Icon" alt="sql"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain-wordmark.svg" title="Html5 Icon" alt="html5"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" title="Css3 Icon" alt="css3"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg" title="Git Icon" alt="git"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://i.postimg.cc/W3BLzn5d/Github-Logo.jpg" title="GitHub Icon" alt="github"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" title="VSCode Icon" alt="vscode"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" title="Visual Studio Icon" alt="visualstudio"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;        
-        <img src="https://raw.githubusercontent.com/badges/shields/master/logo/gitlab.svg" title="Visual Studio Icon" alt="visualstudio"
-        width="70" height="70" style="display: inline-block;"/>&nbsp;      
-    </div>
 </div>
+
+| Domain   | Type |
+|----------|------|
+| **Languages**         | [![My Skills](https://skillicons.dev/icons?i=py,cs,js,ts)](https://skillicons.dev)   |
+| **Databases**     | [![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql)](https://skillicons.dev)  |
+| **CI / CD** | [![My Skills](https://skillicons.dev/icons?i=githubactions,gitlab,git,github)](https://skillicons.dev) |
+| **Web** |  [![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,nodejs,react)](https://skillicons.dev) |
+| **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,ubuntu,linux)](https://skillicons.dev) |
+| **IDE** |  [![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio)](https://skillicons.dev) |
+
+
