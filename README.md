@@ -1,7 +1,6 @@
-$${\color{yellow}Welcome \space \color{blue}To \space \color{red}My \space \color{lightblue}Github}$$
+<img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=gradient&text=Hi%20There,-nl-Im%20Sebastian&descAlign=81&textBg=false&animation=fadeIn" width=100% alt="Header Banner">
+
 <div id="header" align="center">
-    <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="250"/>
-    <h1 align="center">Hi, I'm Sebastian</h1>
     <h2 align="center">I am a Software Engineering student at
         Pascual Bravo University. I love programming challenges and I'm looking for
         real life problems to start my professional life.
