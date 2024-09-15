@@ -35,7 +35,9 @@
 
 ---
 
-### About me 👨‍💻
+<a href="https://github.com/JoansebHM">
+   <img align="center" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=About%20Me&fontSize=60&fontAlign=50&fontAlignY=30&descAlignY=85" width="100%"/>
+</a>
 
 - Medellin | Colombia
 - Eghth semester of Software Engineering 💻
