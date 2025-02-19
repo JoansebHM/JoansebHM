@@ -41,7 +41,7 @@
 
 - Medellin | Colombia
 - Eghth semester of Software Engineering 💻
-- English level : B2
+- English level : C1
 - Training me in : Python, machine learning, AI 🤖
 
 ---
@@ -53,9 +53,9 @@
 | Domain   | Type |
 |----------|------|
 | **Languages**         | [![My Skills](https://skillicons.dev/icons?i=py,cs,js,ts)](https://skillicons.dev)   |
-| **Databases**     | [![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql)](https://skillicons.dev)  |
+| **Databases**     | [![My Skills](https://skillicons.dev/icons?i=postgres,mysql)](https://skillicons.dev)  |
 | **CI / CD** | [![My Skills](https://skillicons.dev/icons?i=githubactions,gitlab,git,github)](https://skillicons.dev) |
-| **Web** |  [![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,nodejs,react&perline=4)](https://skillicons.dev) |
+| **Web** |  [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,nodejs,react,nestjs&perline=4)](https://skillicons.dev) |
 | **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,linux)](https://skillicons.dev) |
 | **IDE** |  [![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio)](https://skillicons.dev) |
 
