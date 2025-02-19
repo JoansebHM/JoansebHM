@@ -56,7 +56,7 @@
 | **Databases**     | [![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql)](https://skillicons.dev)  |
 | **CI / CD** | [![My Skills](https://skillicons.dev/icons?i=githubactions,gitlab,git,github)](https://skillicons.dev) |
 | **Web** |  [![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,nodejs,react&perline=4)](https://skillicons.dev) |
-| **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,ubuntu,linux)](https://skillicons.dev) |
+| **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,linux)](https://skillicons.dev) |
 | **IDE** |  [![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio)](https://skillicons.dev) |
 
 
