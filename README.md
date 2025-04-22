@@ -40,7 +40,7 @@
 </a>
 
 - Medellin | Colombia
-- Eghth semester of Software Engineering 💻
+- Ninth semester of Software Engineering 💻
 - English level : C1
 - Training me in : Python, machine learning, AI 🤖
 
