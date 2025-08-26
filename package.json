@@ -1,0 +1,20 @@
+{
+  "name": "preview-capacity-info",
+  "version": "1.0.0",
+  "description": "Excel-style capacity preview component",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {},
+  "keywords": ["react", "excel", "capacity", "pdf"],
+  "author": "JoansebHM",
+  "license": "MIT"
+}
