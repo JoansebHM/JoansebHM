@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=gradient&text=Hi%20There,-nl-Im%20Sebastian&descAlign=81&textBg=false&animation=fadeIn" width=100% alt="Header Banner">
+<img src="https://capsule-render.vercel.app/api?type=venom&height=170&color=gradient&text=Hi%20There,-nl-Im%20Sebastian&descAlign=81&textBg=false&animation=fadeIn" width=100% alt="Header Banner">
 
 <p align="center">
   <img src="https://github.com/dhrubasaha08/dhrubasaha08/blob/main/assets/multi_color_ribbon.png">
