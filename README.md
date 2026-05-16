@@ -47,11 +47,12 @@
 
 | Domain   | Type |
 |----------|------|
-| **Languages**         | [![My Skills](https://skillicons.dev/icons?i=py,js,ts)](https://skillicons.dev)   |
-| **Databases**     | [![My Skills](https://skillicons.dev/icons?i=postgres,mysql)](https://skillicons.dev)  |
+| **Languages** | [![My Skills](https://skillicons.dev/icons?i=py,js,ts)](https://skillicons.dev) |
+| **Databases** | [![My Skills](https://skillicons.dev/icons?i=postgres,mysql)](https://skillicons.dev) |
 | **CI / CD** | [![My Skills](https://skillicons.dev/icons?i=githubactions,gitlab,git,github)](https://skillicons.dev) |
-| **Web** |  [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,nodejs,react,nestjs,vercel,vite,supabase,figma&perline=4)](https://skillicons.dev) |
+| **Frontend / Web** | [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,react,vite,vercel,figma&perline=4)](https://skillicons.dev) |
+| **Backend** | [![My Skills](https://skillicons.dev/icons?i=nodejs,nestjs,fastapi,supabase,docker&perline=5)](https://skillicons.dev) |
 | **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,linux,apple)](https://skillicons.dev) |
-| **IDE** |  [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) |
+| **IDE** | [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) |
 
 
