@@ -3,7 +3,7 @@
 <div id="header" align="">
     <h2 align="">Who am I?</h2>
 <p>
-  I am a <strong>full-stack developer in training</strong> with <strong>2 years of experience</strong>, focused on solving <strong>real-world problems</strong> with smart, efficient code. My goal is to turn challenges into <strong>practical solutions</strong> that make systems <strong>faster, more scalable, and easier to use</strong>.
+  I am a <strong>full-stack developer </strong> with <strong>+2.5 years of experience</strong>, focused on solving <strong>real-world problems</strong> with smart, efficient code. My goal is to turn challenges into <strong>practical solutions</strong> that make systems <strong>faster, more scalable, and easier to use</strong>.
 
   I have hands-on experience <strong>building and improving complex web applications</strong>, especially on the <strong>frontend with React and TypeScript</strong>. I've worked on <strong>refactoring legacy systems</strong> into <strong>modular architectures</strong>, optimizing <strong>performance</strong> with techniques like <strong>lazy loading and caching</strong>, and building <strong>data-intensive interfaces</strong> such as <strong>dashboards and advanced filtering systems</strong>.
 
