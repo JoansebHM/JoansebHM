@@ -29,13 +29,15 @@ jobs:
         env:
           STATS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-        run: python stats/generate.py
+        run: |
+          python stats/generate.py
+          python stats/stack.py
 
       - name: Guardar cambios
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats-card.svg
+          git add assets/stats-card.svg assets/stack-card.svg
           git diff --staged --quiet && exit 0
           git commit -m "chore: update profile stats"
           git pull --rebase -X theirs origin main

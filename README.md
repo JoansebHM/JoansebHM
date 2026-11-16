@@ -29,18 +29,8 @@
 
 ---
 
-<div align="left">
-    <h3>Languages and Tools :</h3>
+<div align="center">
+    <img src="./assets/stack-card.svg" width="100%" alt="Tech stack">
 </div>
-
-| Domain   | Type |
-|----------|------|
-| **Languages** | [![My Skills](https://skillicons.dev/icons?i=py,js,ts)](https://skillicons.dev) |
-| **Databases** | [![My Skills](https://skillicons.dev/icons?i=postgres,mysql)](https://skillicons.dev) |
-| **CI / CD** | [![My Skills](https://skillicons.dev/icons?i=githubactions,gitlab,git,github)](https://skillicons.dev) |
-| **Frontend / Web** | [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,react,vite,vercel,figma&perline=4)](https://skillicons.dev) |
-| **Backend** | [![My Skills](https://skillicons.dev/icons?i=nodejs,nestjs,fastapi,supabase,docker&perline=5)](https://skillicons.dev) |
-| **OS** | [![My Skills](https://skillicons.dev/icons?i=windows,linux,apple)](https://skillicons.dev) |
-| **IDE** | [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) |
 
 
