@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" width="100%" alt="Hi there, I'm Joan">
+<img src="./assets/banner.svg" width="100%" alt="Hi there, I'm Sebastian">
 
 <div id="header" align="">
     <h2 align="">Who am I?</h2>
@@ -12,6 +12,7 @@
     <p align="center">
         <a href="https://www.linkedin.com/in/sebastianherreramon"><img src="./assets/btn-linkedin.svg" height="48" alt="LinkedIn"></a>
         <a href="mailto:sebashm621@gmail.com"><img src="./assets/btn-gmail.svg" height="48" alt="Gmail"></a>
+        <a href="https://portafolio-joansebhm.vercel.app/"><img src="./assets/btn-portfolio.svg" height="48" alt="Portfolio"></a>
         <a href="https://www.hackerrank.com/sebashm621"><img src="./assets/btn-hackerrank.svg" height="48" alt="HackerRank"></a>
     </p>
 </div>
