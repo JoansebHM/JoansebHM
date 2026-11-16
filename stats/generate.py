@@ -26,7 +26,7 @@ INITIALS = "JSHM"           # se muestra en la pantalla del ASCII art (máx. 6)
 EXCLUDE_LANGS = []          # p. ej. ["HTML", "CSS", "Jupyter Notebook"]
 EXCLUDE_REPOS = []          # repos que no quieres contar
 MAX_LANGS = 6
-OUT_DIR = Path(__file__).resolve().parent.parent   # raíz del repo
+OUT_DIR = Path(__file__).resolve().parent.parent / "assets"   # carpeta de imágenes
 # =============================================================
 
 HERE = Path(__file__).resolve().parent
@@ -521,6 +521,7 @@ def main():
         if not token or not login:
             raise SystemExit("Faltan STATS_TOKEN y/o GH_USER")
         data = fetch(login, token)
+    OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / "stats-card.svg").write_text(card(data), encoding="utf-8")
     (OUT_DIR / "stats-terminal.svg").write_text(terminal(data), encoding="utf-8")
     print("✓ stats-card.svg y stats-terminal.svg generados")
