@@ -85,7 +85,6 @@ def build():
             add(f'<g class="f" {nxt()}>')
             add(f'<rect x="{bx:.1f}" y="{y}" width="{bw:.1f}" height="{bh}" rx="10" fill="#131313" stroke="#232323"/>')
             add(f'<text x="{bx+16:.1f}" y="{y+27}" class="lbl muted">{esc(cat.upper())}</text>')
-            add(f'<text x="{bx+bw-16:.1f}" y="{y+27}" class="lbl dim" text-anchor="end">{len(items):02d}</text>')
             for k, slug in enumerate(items):
                 d, name = icons[slug]
                 tx = bx + 16 + (k % per_row) * (T + TG)
