@@ -34,7 +34,7 @@ FONTS = {k: (HERE / "fonts" / f"{k}.b64").read_text().strip()
          for k in ["vt323", "inter-400", "inter-600", "inter-700", "jbmono-700"]}
 
 T = {
-    "en": dict(since="on GitHub since", contrib_year="contributions in the last year",
+    "en": dict(title="GitHub stats", since="on GitHub since", contrib_year="contributions in the last year",
                commits="Commits", commits_sub="{} all-time", stars="Stars", stars_sub="{} forks",
                prs="Pull requests", issues="Issues", repos="Repositories", repos_sub="{} public",
                followers="Followers", followers_sub="{} following", cur_streak="Current streak",
@@ -45,7 +45,7 @@ T = {
                u_langs="Languages", public="public", forks="Forks", issues_s="Issues",
                total="total", last_year="last year", best="best", following="Following",
                year="year", years="years", month="month", months="months", updated="updated"),
-    "es": dict(since="en GitHub desde", contrib_year="contribuciones en el último año",
+    "es": dict(title="Estadísticas de GitHub", since="en GitHub desde", contrib_year="contribuciones en el último año",
                commits="Commits", commits_sub="{} en total", stars="Estrellas", stars_sub="{} forks",
                prs="Pull requests", issues="Issues", repos="Repositorios", repos_sub="{} públicos",
                followers="Seguidores", followers_sub="{} siguiendo", cur_streak="Racha actual",
@@ -253,9 +253,9 @@ def card(d):
 
     # ---- cabecera
     add(f'<g class="f" {nxt()}>')
-    add(f'<text x="{P}" y="62" class="h1">{esc(d["name"])}</text>')
-    add(f'<text x="{P}" y="88" class="mono muted" font-size="14">@{esc(d["login"])}  ·  '
-        f'{T["since"]} {d["created"].year}</text>')
+    add(f'<text x="{P}" y="62" class="h1">{T["title"]}</text>')
+    add(f'<text x="{P}" y="88" class="mono muted" font-size="14">{T["since"]} {d["created"].year}  ·  '
+        f'{T["updated"]} {dt.date.today().strftime("%Y-%m-%d")}</text>')
     add(f'<text x="{W-P}" y="62" class="mono big" text-anchor="end">{fmt(d["contrib_year"])}</text>')
     add(f'<text x="{W-P}" y="86" class="lbl2 muted" text-anchor="end">{T["contrib_year"]}</text>')
     add('</g>')
@@ -523,8 +523,7 @@ def main():
         data = fetch(login, token)
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / "stats-card.svg").write_text(card(data), encoding="utf-8")
-    (OUT_DIR / "stats-terminal.svg").write_text(terminal(data), encoding="utf-8")
-    print("✓ stats-card.svg y stats-terminal.svg generados")
+    print("✓ stats-card.svg generado")
 
 
 if __name__ == "__main__":

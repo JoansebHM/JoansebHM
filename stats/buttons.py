@@ -71,7 +71,7 @@ def button(label, icon):
     text = f"> {label}"
     pad, icon_w, gap = 16, len(ICONS[icon][0]) * PX, 12
     tx = pad + icon_w + gap
-    W = round(tx + (len(text) + 1) * CW + 4 + pad)
+    W = round(tx + len(text) * CW + pad)
     iy = (H - 9 * PX) / 2
     pixels = "".join(
         f'<rect x="{pad + c*PX}" y="{iy + r*PX:.0f}" width="{PX}" height="{PX}"/>'
@@ -86,8 +86,6 @@ def button(label, icon):
 @font-face{{font-family:"VT323";src:url(data:font/woff2;base64,{FONT}) format("woff2");}}
 .t{{font-family:VT323,"Courier New",monospace;font-size:{FS}px;fill:#f2f2f2}}
 .d{{fill:#8a8a8a}}
-.c{{animation:b 1s steps(1) infinite}}
-@keyframes b{{50%{{opacity:0}}}}
 </style>
 <filter id="g" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="1.8" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <pattern id="s" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1.5" fill="#000" opacity=".35"/></pattern>
@@ -97,7 +95,6 @@ def button(label, icon):
 <g filter="url(#g)">
 <g fill="#f2f2f2">{pixels}</g>
 <text x="{tx}" y="{H/2 + 8}" class="t" xml:space="preserve"><tspan class="d">&gt;</tspan> {label}</text>
-<rect class="c" x="{cx:.1f}" y="{H/2 - 9}" width="{CW:.1f}" height="19" fill="#f2f2f2"/>
 </g>
 <rect width="{W}" height="{H}" fill="url(#s)"/>
 </svg>'''

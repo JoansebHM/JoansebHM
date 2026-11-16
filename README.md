@@ -22,23 +22,10 @@
 # My status
 
 <div align="center">
-    <img src="./assets/stats-terminal.svg" width="100%" alt="neofetch">
-</div>
-
-<div align="center">
     <a href="https://github.com/JoansebHM?tab=repositories">
         <img src="./assets/stats-card.svg" width="100%" alt="GitHub stats">
     </a>
 </div>
-
----
-
-# About me
-
-- Medellin | Colombia
-- Software Engineering
-- English level : C1
-- Currently exploring FastAPI and backend engineering
 
 ---
 
