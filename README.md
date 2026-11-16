@@ -19,8 +19,6 @@
 
 ---
 
-# My status
-
 <div align="center">
     <a href="https://github.com/JoansebHM?tab=repositories">
         <img src="./assets/stats-card.svg" width="100%" alt="GitHub stats">
