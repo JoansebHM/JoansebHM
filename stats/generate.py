@@ -372,6 +372,137 @@ def card(d):
 
 
 # --------------------------------------------------------------------------- #
+#  Tarjeta moderna · versión celular (una columna, letra más grande)
+# --------------------------------------------------------------------------- #
+def card_mobile(d):
+    W, P = 440, 22
+    IW = W - 2 * P
+    cur, best = streaks(d["days"])
+    o = []
+    add = o.append
+    delay = [0.0]
+
+    def nxt(step=0.06):
+        delay[0] += step
+        return f'style="animation-delay:{delay[0]:.2f}s"'
+
+    add(f'<g class="f" {nxt()}>')
+    add(f'<text x="{P}" y="50" class="h1">{T["title"]}</text>')
+    add(f'<text x="{P}" y="74" class="mono muted" font-size="13">{T["since"]} {d["created"].year}  ·  '
+        f'{dt.date.today().strftime("%Y-%m-%d")}</text>')
+    add('</g>')
+    add(f'<g class="f" {nxt()}>')
+    add(f'<rect x="{P}" y="94" width="{IW}" height="74" rx="10" fill="#131313" stroke="#232323"/>')
+    add(f'<text x="{P+16}" y="142" class="mono big">{fmt(d["contrib_year"])}</text>')
+    add(f'<text x="{W-P-16}" y="128" class="lbl2 muted" text-anchor="end">{T["contrib_year"].rsplit(" ", 3)[0]}</text>')
+    add(f'<text x="{W-P-16}" y="148" class="lbl2 muted" text-anchor="end">{" ".join(T["contrib_year"].rsplit(" ", 3)[1:])}</text>')
+    add('</g>')
+
+    tiles = [
+        (T["commits"], fmt(d["commits_year"]), T["commits_sub"].format(fmt(d["commits_total"]))),
+        (T["stars"], fmt(d["stars"]), T["stars_sub"].format(fmt(d["forks"]))),
+        (T["prs"], fmt(d["prs"]), ""),
+        (T["issues"], fmt(d["issues"]), ""),
+        (T["repos"], fmt(d["repos_total"]), T["repos_sub"].format(d["repos_public"])),
+        (T["followers"], fmt(d["followers"]), T["followers_sub"].format(d["following"])),
+        (T["cur_streak"], str(cur), T["days"]),
+        (T["best_streak"], str(best), T["days"]),
+    ]
+    gap, th = 12, 90
+    tw = (IW - gap) / 2
+    ty0 = 180
+    for i, (label, value, sub) in enumerate(tiles):
+        x, y = P + (i % 2) * (tw + gap), ty0 + (i // 2) * (th + gap)
+        add(f'<g class="f" {nxt()}>')
+        add(f'<rect x="{x:.1f}" y="{y}" width="{tw:.1f}" height="{th}" rx="10" fill="#131313" stroke="#232323"/>')
+        add(f'<text x="{x+14:.1f}" y="{y+26}" class="lbl muted">{esc(label.upper())}</text>')
+        add(f'<text x="{x+14:.1f}" y="{y+60}" class="mono val">{esc(value)}</text>')
+        if sub:
+            add(f'<text x="{x+14:.1f}" y="{y+79}" class="lbl3 dim">{esc(sub)}</text>')
+        add('</g>')
+
+    # mapa de contribuciones: últimas 26 semanas
+    hy = ty0 + 4 * (th + gap) + 22
+    add(f'<text x="{P}" y="{hy}" class="lbl muted f" {nxt()}>{T["contributions"].upper()}</text>')
+    weeks = d["weeks"][-26:]
+    nz = sorted(c for w in weeks for _, c in w if c)
+    q = [nz[int(len(nz) * p)] if nz else 1 for p in (0.25, 0.5, 0.75)]
+    level = lambda c: 0 if c == 0 else 1 + sum(c > t for t in q)
+    cg = 3
+    cs = (IW - 25 * cg) / 26
+    gy = hy + 34
+    last_m, last_col = None, -9
+    for wi, week in enumerate(weeks):
+        m = dt.date.fromisoformat(week[0][0]).month
+        if m != last_m and wi - last_col >= 3 and wi < len(weeks) - 1:
+            name = dt.date(2000, m, 1).strftime("%b")
+            if LANG == "es":
+                name = "Ene Feb Mar Abr May Jun Jul Ago Sep Oct Nov Dic".split()[m - 1]
+            add(f'<text x="{P + wi*(cs+cg):.1f}" y="{gy-9}" class="lbl3 dim">{name}</text>')
+            last_col = wi
+        last_m = m
+    for wi, week in enumerate(weeks):
+        add(f'<g class="pop" style="animation-delay:{0.7 + wi*0.02:.2f}s">')
+        for date, c in week:
+            di = (dt.date.fromisoformat(date).weekday() + 1) % 7
+            add(f'<rect x="{P + wi*(cs+cg):.1f}" y="{gy + di*(cs+cg):.1f}" width="{cs:.1f}" height="{cs:.1f}" '
+                f'rx="2.5" fill="{HEAT[level(c)]}"/>')
+        add('</g>')
+
+    # lenguajes
+    langs = top_langs(d["langs"])
+    by = gy + 7 * (cs + cg) + 34
+    delay[0] = 1.3
+    add(f'<text x="{P}" y="{by}" class="lbl muted f" {nxt()}>{T["langs"].upper()}</text>')
+    bar_y = by + 16
+    add(f'<clipPath id="bar"><rect x="{P}" y="{bar_y}" width="{IW}" height="10" rx="5"/></clipPath>')
+    add(f'<rect x="{P}" y="{bar_y}" width="{IW}" height="10" rx="5" fill="#1b1b1b"/>')
+    add(f'<g clip-path="url(#bar)"><g class="grow" style="animation-delay:1.4s">')
+    x, tot = P, sum(p for _, p in langs) or 1
+    for i, (n, p) in enumerate(langs):
+        w = IW * p / tot
+        add(f'<rect x="{x:.1f}" y="{bar_y}" width="{max(w-2, 1):.1f}" height="10" fill="{SHADES[i]}"/>')
+        x += w
+    add('</g></g>')
+    col_w = (IW - 20) / 2
+    for i, (n, p) in enumerate(langs):
+        cx, cy = P + (i % 2) * (col_w + 20), bar_y + 42 + (i // 2) * 28
+        add(f'<g class="f" {nxt()}>')
+        add(f'<circle cx="{cx+5:.1f}" cy="{cy-5}" r="5" fill="{SHADES[i]}" stroke="#3a3a3a"/>')
+        add(f'<text x="{cx+18:.1f}" y="{cy}" class="lang">{esc(n)}</text>')
+        add(f'<text x="{cx+col_w:.1f}" y="{cy}" class="mono muted" font-size="14" text-anchor="end">{p:.1f}%</text>')
+        add('</g>')
+    H = int(bar_y + 42 + ((len(langs) + 1) // 2) * 28 + 6)
+
+    style = (font_face("Inter", "inter-400", 400) + font_face("Inter", "inter-600", 600)
+             + font_face("Inter", "inter-700", 700) + font_face("JB", "jbmono-700", 700) + """
+      text{font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif;fill:#f5f5f5}
+      .mono{font-family:JB,ui-monospace,Menlo,Consolas,monospace;font-weight:700}
+      .h1{font-size:28px;font-weight:700;letter-spacing:-.5px}
+      .big{font-size:38px}
+      .val{font-size:30px}
+      .lbl{font-size:12.5px;font-weight:600;letter-spacing:1px}
+      .lbl2{font-size:14px}
+      .lbl3{font-size:12px}
+      .lang{font-size:15px;font-weight:600}
+      .muted{fill:#8f8f8f}.dim{fill:#5f5f5f}
+      .f{opacity:0;animation:in .55s ease-out forwards}
+      .pop{opacity:0;animation:fade .35s ease-out forwards}
+      .grow{transform-box:fill-box;transform-origin:left;transform:scaleX(0);
+            animation:grow 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+      @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+      @keyframes fade{to{opacity:1}}
+      @keyframes grow{to{transform:scaleX(1)}}
+      @media (prefers-reduced-motion:reduce){.f,.pop,.grow{animation:none;opacity:1;transform:none}}
+    """)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+            f'role="img" aria-label="GitHub stats for {esc(d["login"])}">'
+            f'<title>GitHub stats · {esc(d["login"])}</title><style>{style}</style>'
+            f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="16" fill="#0b0b0b" stroke="#262626"/>'
+            + "".join(o) + "</svg>")
+
+
+# --------------------------------------------------------------------------- #
 #  Tarjeta terminal (neofetch)
 # --------------------------------------------------------------------------- #
 def terminal(d):
@@ -523,7 +654,8 @@ def main():
         data = fetch(login, token)
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / "stats-card.svg").write_text(card(data), encoding="utf-8")
-    print("✓ stats-card.svg generado")
+    (OUT_DIR / "stats-card-mobile.svg").write_text(card_mobile(data), encoding="utf-8")
+    print("✓ stats-card.svg y stats-card-mobile.svg generados")
 
 
 if __name__ == "__main__":

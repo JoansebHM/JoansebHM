@@ -1,4 +1,7 @@
-<img src="./assets/banner.svg" width="100%" alt="Hi there, I'm Sebastian">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/banner-mobile.svg">
+  <img src="./assets/banner.svg" width="100%" alt="Hi there, I'm Sebastian">
+</picture>
 
 <div id="header" align="">
     <h2 align="">Who am I?</h2>
@@ -10,10 +13,10 @@
   I enjoy working on problems related to <strong>performance, scalability, and code quality</strong>, and I'm constantly looking for ways to improve both the <strong>user experience</strong> and the <strong>developer experience</strong>.
 </p>
     <p align="center">
-        <a href="https://www.linkedin.com/in/sebastianherreramon"><img src="./assets/btn-linkedin.svg" height="48" alt="LinkedIn"></a>
-        <a href="mailto:sebashm621@gmail.com"><img src="./assets/btn-gmail.svg" height="48" alt="Gmail"></a>
-        <a href="https://portafolio-joansebhm.vercel.app/"><img src="./assets/btn-portfolio.svg" height="48" alt="Portfolio"></a>
-        <a href="https://www.hackerrank.com/sebashm621"><img src="./assets/btn-hackerrank.svg" height="48" alt="HackerRank"></a>
+        <a href="https://www.linkedin.com/in/sebastianherreramon"><picture><source media="(max-width: 600px)" srcset="./assets/btn-linkedin-mobile.svg"><img src="./assets/btn-linkedin.svg" alt="LinkedIn"></picture></a>
+        <a href="mailto:sebashm621@gmail.com"><picture><source media="(max-width: 600px)" srcset="./assets/btn-gmail-mobile.svg"><img src="./assets/btn-gmail.svg" alt="Gmail"></picture></a>
+        <a href="https://portafolio-joansebhm.vercel.app/"><picture><source media="(max-width: 600px)" srcset="./assets/btn-portfolio-mobile.svg"><img src="./assets/btn-portfolio.svg" alt="Portfolio"></picture></a>
+        <a href="https://www.hackerrank.com/sebashm621"><picture><source media="(max-width: 600px)" srcset="./assets/btn-hackerrank-mobile.svg"><img src="./assets/btn-hackerrank.svg" alt="HackerRank"></picture></a>
     </p>
 </div>
 
@@ -21,14 +24,9 @@
 
 <div align="center">
     <a href="https://github.com/JoansebHM?tab=repositories">
-        <img src="./assets/stats-card.svg" width="100%" alt="GitHub stats">
+        <picture>
+            <source media="(max-width: 600px)" srcset="./assets/stats-card-mobile.svg">
+            <img src="./assets/stats-card.svg" width="100%" alt="GitHub stats">
+        </picture>
     </a>
 </div>
-
----
-
-<div align="center">
-    <img src="./assets/stack-card.svg" width="100%" alt="Tech stack">
-</div>
-
-

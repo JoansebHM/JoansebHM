@@ -100,6 +100,11 @@ def button(label, icon):
 </svg>'''
 
 
-for fname, label, icon in BUTTONS:
-    (OUT / fname).write_text(button(label, icon), encoding="utf-8")
-    print("✓", fname)
+# escritorio (48 px de alto) y celular (40 px, más compactos para que quepan 2 por fila)
+SIZES = {"": (26, 48, 2), "-mobile": (21, 40, 2)}
+for suffix, (FS, H, PX) in SIZES.items():
+    CW = FS * 0.4
+    for fname, label, icon in BUTTONS:
+        name = fname.replace(".svg", f"{suffix}.svg")
+        (OUT / name).write_text(button(label, icon), encoding="utf-8")
+        print("✓", name)
